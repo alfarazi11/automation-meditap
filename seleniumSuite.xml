@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="tests" name="Login">
+    <test name="Test UI">
+        <classes>
+            <class name="test.LoginTestDocker"/>
+        </classes>
+    </test>
+    <test name="Test API">
+        <classes>
+            <class name="test.APITest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
