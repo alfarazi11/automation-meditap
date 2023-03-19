@@ -17,6 +17,7 @@ public class LoginPage extends BasePage{
 
     public LoginPage(ThreadLocal<WebDriver> driver, ThreadLocal<WebDriverWait> explicitWait) {
         super(driver,explicitWait);
+        PageFactory.initElements(driver.get(), this);
     }
 
 

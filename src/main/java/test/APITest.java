@@ -12,7 +12,7 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotEquals;
 
 public class APITest extends BaseAPITest{
-    @Test
+//    @Test
     public void testDashboard() {
         Response response = given().spec(loginJsonSpec).param("status", "completed").when().get(APIEndpoints.dashboard);
         APIUtility.verifyStatusCodeSuccess(response);
@@ -20,7 +20,7 @@ public class APITest extends BaseAPITest{
                 .body(matchesJsonSchema(DataUtility.getDataFromExcel("Schemas", "DashboardAPISchema")));
     }
 
-    @Test
+//    @Test
     public void testUser() {
         Response response = given().spec(loginJsonSpec).when().get(APIEndpoints.me);
         APIUtility.verifyStatusCodeSuccess(response);

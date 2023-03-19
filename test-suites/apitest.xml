@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login">
+    <test name="Login" preserve-order="true">
+        <classes>
+            <class name="test.APITest">
+                <methods>
+                    <include name="testDashboard"/>
+                    <include name="testUser"/>
+                    <include name="testConfig"/>
+                    <include name="invalidCredTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

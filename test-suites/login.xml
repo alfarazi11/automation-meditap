@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login">
+    <test name="Login" preserve-order="true">
+        <classes>
+            <class name="test.LoginTestDocker">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="invalidEmail"/>
+                    <include name="invalidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
