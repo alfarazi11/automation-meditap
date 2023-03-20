@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="tests">
-    <listeners>
-        <listener class-name="listeners.ScreenshotListener"/>
-<!--        <listener class-name="org.uncommons.reportng.HTMLReporter"/>-->
-<!--        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>-->
-    </listeners>
-    <suite-files preserve-order="true">
-                <suite-file path="test-suites/login.xml"/>
-<!--                <suite-file path="test-suites/apitest.xml"/>-->
-    </suite-files>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="search-module" parallel="tests">
+    <test name="Login">
+        <classes>
+            <class name="test.LoginTestDocker" />
+        </classes>
+    </test>
+    <test name="Api-test">
+        <classes>
+            <class name="test.LoginTestDocker" />
+        </classes>
+    </test>
 </suite>

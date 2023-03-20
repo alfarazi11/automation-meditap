@@ -86,9 +86,6 @@
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:android:1.23" level="project" />
     <orderEntry type="library" name="Maven: com.github.mifmif:generex:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: dk.brics.automaton:automaton:1.11-8" level="project" />
-    <orderEntry type="library" name="Maven: org.testng:testng:7.7.1" level="project" />
-    <orderEntry type="library" name="Maven: com.beust:jcommander:1.82" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:jquery:3.6.1" level="project" />
     <orderEntry type="library" name="Maven: com.codoid.products:fillo:1.21" level="project" />
     <orderEntry type="library" name="Maven: io.rest-assured:rest-assured:4.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:3.0.8" level="project" />
@@ -127,5 +124,11 @@
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-java-commons:2.17.3" level="project" />
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-model:2.17.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: io.qameta.allure:allure-test-filter:2.17.3" level="project" />
+    <orderEntry type="library" name="Maven: org.testng:testng:7.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.72" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject:guice:no_aop:4.1.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.21" level="project" />
   </component>
 </module>

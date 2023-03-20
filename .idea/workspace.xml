@@ -4,256 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ce8720-fb06-4b9a-95ab-de990a93afd9" name="Changes" comment="second Push">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listeners/ScreenshotListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suites/apitest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-suites/login.xml" afterDir="false" />
+    <list default="true" id="87ce8720-fb06-4b9a-95ab-de990a93afd9" name="Changes" comment="three push">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/allure-java-commons-2.17.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/allure-model-2.17.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/allure-test-filter-2.17.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/allure-testng-2.17.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/async-http-client-2.12.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/async-http-client-netty-utils-2.12.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/auto-common-0.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/auto-service-1.0-rc7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/auto-service-annotations-1.0-rc7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/automaton-1.11-8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/btf-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/byte-buddy-1.10.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/checker-qual-3.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/commons-codec-1.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/commons-compress-1.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/commons-exec-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/commons-io-2.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/commons-lang3-3.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/error_prone_annotations-2.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/fillo-1.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/generex-1.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/groovy-3.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/groovy-json-3.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/groovy-xml-3.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/gson-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/guava-30.1-jre.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/hamcrest-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/httpclient-4.5.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/httpclient5-5.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/httpcore-4.4.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/httpcore5-5.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/httpcore5-h2-5.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/httpmime-4.5.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/j2objc-annotations-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jackson-annotations-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jackson-core-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jackson-coreutils-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jackson-coreutils-equivalence-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jackson-databind-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jakarta.activation-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jakarta.activation-api-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jakarta.xml.bind-api-2.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jarchivelib-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/javafaker-1.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jaxb-impl-2.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jcommander-1.82.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/joda-time-2.10.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jopt-simple-5.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jquery-3.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/json-path-4.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/json-schema-core-1.2.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/json-schema-validator-2.2.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/json-schema-validator-4.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jsoup-1.13.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/libphonenumber-8.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/mailapi-1.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/msg-simple-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-buffer-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-codec-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-codec-http-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-codec-socks-4.1.53.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-common-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-handler-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-handler-proxy-4.1.53.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-reactive-streams-2.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-resolver-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-transport-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-transport-native-epoll-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-transport-native-kqueue-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/netty-transport-native-unix-common-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/opentelemetry-api-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/opentelemetry-api-metrics-1.0.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/opentelemetry-context-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/opentelemetry-exporter-logging-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/opentelemetry-sdk-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/opentelemetry-sdk-common-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/opentelemetry-sdk-metrics-1.0.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/opentelemetry-sdk-trace-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/opentelemetry-semconv-1.0.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/reactive-streams-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/rest-assured-4.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/rest-assured-common-4.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/rhino-1.7.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-api-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-chrome-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-chromium-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-devtools-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-devtools-v85-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-devtools-v88-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-devtools-v89-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-devtools-v90-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-devtools-v91-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-edge-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-firefox-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-firefox-xpi-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-http-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-ie-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-java-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-json-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-opera-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-remote-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-safari-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/selenium-support-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/slf4j-api-1.7.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/snakeyaml-1.23-android.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/tagsoup-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/testng-7.7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/uri-template-0.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/webdrivermanager-4.4.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/xml-path-4.4.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seleniumSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/APITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/page/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/allure-java-commons-2.17.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/allure-model-2.17.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/allure-test-filter-2.17.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/allure-testng-2.17.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/async-http-client-2.12.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/async-http-client-netty-utils-2.12.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/auto-common-0.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/auto-service-1.0-rc7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/auto-service-annotations-1.0-rc7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/automaton-1.11-8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/btf-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/byte-buddy-1.10.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/checker-qual-3.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/commons-codec-1.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/commons-compress-1.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/commons-exec-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/commons-io-2.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/commons-lang3-3.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/error_prone_annotations-2.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/fillo-1.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/generex-1.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/groovy-3.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/groovy-json-3.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/groovy-xml-3.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/gson-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/guava-30.1-jre.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/hamcrest-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/httpclient-4.5.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/httpclient5-5.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/httpcore-4.4.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/httpcore5-5.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/httpcore5-h2-5.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/httpmime-4.5.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/j2objc-annotations-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jackson-annotations-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jackson-core-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jackson-coreutils-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jackson-coreutils-equivalence-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jackson-databind-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jakarta.activation-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jakarta.activation-api-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jakarta.xml.bind-api-2.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jarchivelib-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/javafaker-1.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jaxb-impl-2.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jcommander-1.82.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/joda-time-2.10.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jopt-simple-5.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jquery-3.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/json-path-4.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/json-schema-core-1.2.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/json-schema-validator-2.2.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/json-schema-validator-4.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jsoup-1.13.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/libphonenumber-8.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/mailapi-1.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/msg-simple-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-buffer-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-codec-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-codec-http-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-codec-socks-4.1.53.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-common-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-handler-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-handler-proxy-4.1.53.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-reactive-streams-2.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-resolver-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-transport-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-transport-native-epoll-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-transport-native-kqueue-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/netty-transport-native-unix-common-4.1.58.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/opentelemetry-api-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/opentelemetry-api-metrics-1.0.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/opentelemetry-context-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/opentelemetry-exporter-logging-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/opentelemetry-sdk-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/opentelemetry-sdk-common-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/opentelemetry-sdk-metrics-1.0.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/opentelemetry-sdk-trace-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/opentelemetry-semconv-1.0.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/reactive-streams-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/rest-assured-4.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/rest-assured-common-4.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/rhino-1.7.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-api-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-chrome-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-chromium-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-devtools-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-devtools-v85-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-devtools-v88-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-devtools-v89-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-devtools-v90-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-devtools-v91-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-edge-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-firefox-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-firefox-xpi-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-http-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-ie-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-java-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-json-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-opera-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-remote-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-safari-driver-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/selenium-support-4.0.0-beta-3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/slf4j-api-1.7.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/snakeyaml-1.23-android.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/tagsoup-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/testng-7.7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/uri-template-0.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/webdrivermanager-4.4.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/libs/xml-path-4.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumdocker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumdocker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/selenium-docker-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/selenium-docker.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,8 +71,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/medik/Downloads/devops-automation-main/devops-automation-main",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Alfarazi/Automation/Selenium/SeleniumFramework",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.43908045",
     "settings.editor.selected.configurable": "MavenSettings"
@@ -318,17 +83,13 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.APITest">
+  <component name="RunManager" selected="TestNG.LoginTestDocker">
     <configuration name="snakeyaml-1.23-android.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/libs/snakeyaml-1.23-android.jar" />
       <method v="2" />
     </configuration>
     <configuration name="tagsoup-1.2.1.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/libs/tagsoup-1.2.1.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testng-7.6.1.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/libs/testng-7.6.1.jar" />
       <method v="2" />
     </configuration>
     <configuration name="APITest" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -388,21 +149,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumdocker" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JAR Application.snakeyaml-1.23-android.jar" />
       <item itemvalue="JAR Application.tagsoup-1.2.1.jar" />
-      <item itemvalue="JAR Application.testng-7.6.1.jar" />
       <item itemvalue="TestNG.Run as TestNG" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="TestNG.APITest" />
       <item itemvalue="TestNG.LoginTestDocker" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.APITest" />
         <item itemvalue="TestNG.LoginTestDocker" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.APITest" />
         <item itemvalue="JAR Application.snakeyaml-1.23-android.jar" />
         <item itemvalue="JAR Application.tagsoup-1.2.1.jar" />
-        <item itemvalue="JAR Application.testng-7.6.1.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679208899869</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="three push">
+      <created>1679260556566</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679260556566</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -460,6 +238,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Push" />
     <MESSAGE value="second Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="second Push" />
+    <MESSAGE value="three push" />
+    <option name="LAST_COMMIT_MESSAGE" value="three push" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/seleniumdocker$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1679285277702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
