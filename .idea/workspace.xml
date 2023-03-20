@@ -4,20 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ce8720-fb06-4b9a-95ab-de990a93afd9" name="Changes" comment="six push">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/junitreports/TEST-test.LoginTestDocker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/junitreports/TEST-test.LoginTestDocker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/Api-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/Api-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/Login.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/Login.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Api-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/search-module/Api-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/search-module/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/search-module/Login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/testng-results.xml" afterDir="false" />
+    <list default="true" id="87ce8720-fb06-4b9a-95ab-de990a93afd9" name="Changes" comment="seven push">
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1754889d-4b07-4d75-b3fa-659766650618-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/19d00bce-408b-4bb2-a52f-7b44a319e647-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3409dd47-33e9-4332-a8f6-2a9c87976dc3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/35028ecb-19f9-482f-a1fc-032052e07853-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/42f1897c-e62f-4856-8fea-da98612d89d3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/85e1af14-7634-44ff-9cb9-d073e6955470-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8f413f38-68ab-4ad2-907b-9c98261db7fb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9f50ef25-6081-4c2a-89cd-02478a8c3111-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b9bbabb3-a855-42f9-a452-7d04412447a8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c07014cd-5aa3-408b-8bf2-27cdf02634f3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d0436f53-8b18-4dd7-b25b-6df8f40d8a0c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/selenium-docker-tests.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/selenium-docker-tests.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/selenium-docker.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/selenium-docker.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/junitreports/TEST-test.LoginTestDocker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/Api-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/Login.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Api-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/testng.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679305443609</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="seven push">
+      <created>1679306118106</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679306118106</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,7 +310,8 @@
     <MESSAGE value="four push" />
     <MESSAGE value="five push" />
     <MESSAGE value="six push" />
-    <option name="LAST_COMMIT_MESSAGE" value="six push" />
+    <MESSAGE value="seven push" />
+    <option name="LAST_COMMIT_MESSAGE" value="seven push" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/seleniumdocker$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1679285277702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
