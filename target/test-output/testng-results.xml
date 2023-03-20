@@ -2,70 +2,70 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-20T16:42:14 ICT" name="search-module" finished-at="2023-03-20T16:42:27 ICT" duration-ms="12711">
+  <suite started-at="2023-03-20T16:53:31 ICT" name="search-module" finished-at="2023-03-20T16:53:41 ICT" duration-ms="10105">
     <groups>
     </groups>
-    <test started-at="2023-03-20T16:42:14 ICT" name="Api-test" finished-at="2023-03-20T16:42:27 ICT" duration-ms="12711">
+    <test started-at="2023-03-20T16:53:31 ICT" name="Login" finished-at="2023-03-20T16:53:41 ICT" duration-ms="10024">
       <class name="test.LoginTestDocker">
-        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T16:42:14 ICT" name="setupDriver" finished-at="2023-03-20T16:42:24 ICT" duration-ms="9178" status="PASS">
+        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T16:53:31 ICT" name="setupDriver" finished-at="2023-03-20T16:53:37 ICT" duration-ms="6814" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3224a577]]>
+                <![CDATA[org.testng.TestRunner@352ff4da]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="invalidEmail()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T16:42:24 ICT" name="invalidEmail" finished-at="2023-03-20T16:42:25 ICT" duration-ms="1663" status="PASS">
+        <test-method signature="invalidEmail()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T16:53:37 ICT" name="invalidEmail" finished-at="2023-03-20T16:53:39 ICT" duration-ms="1584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidEmail -->
-        <test-method signature="invalidPassword()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T16:42:25 ICT" name="invalidPassword" finished-at="2023-03-20T16:42:26 ICT" duration-ms="808" status="PASS">
+        <test-method signature="invalidPassword()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T16:53:39 ICT" name="invalidPassword" finished-at="2023-03-20T16:53:40 ICT" duration-ms="770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPassword -->
-        <test-method signature="validLogin()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T16:42:26 ICT" name="validLogin" finished-at="2023-03-20T16:42:27 ICT" duration-ms="811" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T16:53:40 ICT" name="validLogin" finished-at="2023-03-20T16:53:41 ICT" duration-ms="591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T16:42:27 ICT" name="quitDriver" finished-at="2023-03-20T16:42:27 ICT" duration-ms="73" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- test.LoginTestDocker -->
-    </test> <!-- Api-test -->
-    <test started-at="2023-03-20T16:42:14 ICT" name="Login" finished-at="2023-03-20T16:42:27 ICT" duration-ms="12711">
-      <class name="test.LoginTestDocker">
-        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T16:42:14 ICT" name="setupDriver" finished-at="2023-03-20T16:42:24 ICT" duration-ms="9217" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2e32ccc5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method signature="invalidEmail()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T16:42:24 ICT" name="invalidEmail" finished-at="2023-03-20T16:42:25 ICT" duration-ms="1663" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidEmail -->
-        <test-method signature="invalidPassword()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T16:42:25 ICT" name="invalidPassword" finished-at="2023-03-20T16:42:26 ICT" duration-ms="802" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidPassword -->
-        <test-method signature="validLogin()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T16:42:26 ICT" name="validLogin" finished-at="2023-03-20T16:42:27 ICT" duration-ms="817" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T16:42:27 ICT" name="quitDriver" finished-at="2023-03-20T16:42:27 ICT" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T16:53:41 ICT" name="quitDriver" finished-at="2023-03-20T16:53:41 ICT" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- test.LoginTestDocker -->
     </test> <!-- Login -->
+    <test started-at="2023-03-20T16:53:31 ICT" name="Api-test" finished-at="2023-03-20T16:53:41 ICT" duration-ms="10105">
+      <class name="test.LoginTestDocker">
+        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T16:53:31 ICT" name="setupDriver" finished-at="2023-03-20T16:53:37 ICT" duration-ms="6899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e928fbf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidEmail()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T16:53:37 ICT" name="invalidEmail" finished-at="2023-03-20T16:53:39 ICT" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method signature="invalidPassword()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T16:53:39 ICT" name="invalidPassword" finished-at="2023-03-20T16:53:40 ICT" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method signature="validLogin()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T16:53:40 ICT" name="validLogin" finished-at="2023-03-20T16:53:41 ICT" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T16:53:41 ICT" name="quitDriver" finished-at="2023-03-20T16:53:41 ICT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- test.LoginTestDocker -->
+    </test> <!-- Api-test -->
   </suite> <!-- search-module -->
 </testng-results>

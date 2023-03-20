@@ -18,7 +18,7 @@ ADD target/libs libs
 ADD seleniumSuite.xml seleniumSuite.xml
 
 # ADD health check script
-RUN wget https://s3.amazonaws.com/selenium-docker/healthcheck/healthcheck.sh
+RUN healthcheck.sh healthcheck.sh
 
 # BROWSER
 # HUB_HOST

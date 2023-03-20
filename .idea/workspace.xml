@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ce8720-fb06-4b9a-95ab-de990a93afd9" name="Changes" comment="five push">
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+    <list default="true" id="87ce8720-fb06-4b9a-95ab-de990a93afd9" name="Changes" comment="six push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/junitreports/TEST-test.LoginTestDocker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/junitreports/TEST-test.LoginTestDocker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/Api-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/Api-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/Login.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/Login.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Api-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/search-module/Api-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/search-module/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/search-module/Login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679304947001</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="six push">
+      <created>1679305373907</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679305373907</updated>
+    </task>
+    <task id="LOCAL-00009" summary="six push">
+      <created>1679305443609</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679305443609</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,7 +272,8 @@
     <MESSAGE value="three push" />
     <MESSAGE value="four push" />
     <MESSAGE value="five push" />
-    <option name="LAST_COMMIT_MESSAGE" value="five push" />
+    <MESSAGE value="six push" />
+    <option name="LAST_COMMIT_MESSAGE" value="six push" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/seleniumdocker$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1679285277702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
