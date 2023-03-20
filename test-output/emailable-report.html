@@ -1,91 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="https://www.w3.org/1999/xhtml">
 <head>
-<meta charset='utf-8'>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>TestNG Report</title>
-<style type="text/css">
-table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
-td,th {border:1px solid #009;padding:.25em .5em}
-.result th {vertical-align:bottom}
-.param th {padding-left:1em;padding-right:1em}
-.param td {padding-left:.5em;padding-right:2em}
-.stripe td,.stripe th {background-color: #E6EBF9}
-.numi,.numi_attn {text-align:right}
-.total td {font-weight:bold}
-.passedodd td {background-color: #0A0}
-.passedeven td {background-color: #3F3}
-.skippedodd td {background-color: #CCC}
-.skippedodd td {background-color: #DDD}
-.failedodd td,.numi_attn {background-color: #F33}
-.failedeven td,.stripe .numi_attn {background-color: #D00}
-.stacktrace {white-space:pre;font-family:monospace}
-.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
-</style>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
 </head>
 <body>
-<table cellspacing="0" cellpadding="0" class="testOverview">
-<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><th colspan="8">Login</th></tr>
-<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Login</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">128.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 </table>
-<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
-<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="5">Suite</th></tr>
-<tr><th colspan="5">Login</th></tr>
-<tr id="t1"><th colspan="5">Login &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="2">test.LoginTestDocker</td><td><a href="#m1"><b>invalidEmail</b>  </a></td><td class="numi">1</td><td>1679281705884</td><td class="numi">60113</td></tr><tr class="failedodd"><td><a href="#m2"><b>invalidPassword</b>  </a></td><td class="numi">1</td><td>1679281766020</td><td class="numi">60524</td></tr>
-<tr><th colspan="5">Login &#8212; passed</th></tr>
-<tr class="passedodd"><td>test.LoginTestDocker</td><td><a href="#m3"><b>validLogin</b>  </a></td><td class="numi">1</td><td>1679281705054</td><td class="numi">766</td></tr>
-</table>
-<h1>Login</h1>
-<h2 id="m1">test.LoginTestDocker:invalidEmail</h2>
-<div>
-<h3>Test Messages</h3>
-<h3 style='text-align: center;'></h3><br/>
-<h3>Failure</h3>
-<div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.0.0-beta-3&apos;, revision: &apos;5d108f9a67&apos;
-System info: host: &apos;DESKTOP-NVQOVER&apos;, ip: &apos;10.125.75.160&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:37125}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: ee8992842f1d649efaafa11cc4c...}
-Session ID: ee8992842f1d649efaafa11cc4cd9460
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at page.BasePage.setText(BasePage.java:27)
-	at page.LoginPage.inputEmail(LoginPage.java:25)
-	at test.LoginTestDocker.invalidEmail(LoginTestDocker.java:22)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 25 stack frames</div>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">test.LoginTestDocker:invalidPassword</h2>
-<div>
-<h3>Test Messages</h3>
-<h3 style='text-align: center;'></h3><br/>
-<h3>Failure</h3>
-<div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.0.0-beta-3&apos;, revision: &apos;5d108f9a67&apos;
-System info: host: &apos;DESKTOP-NVQOVER&apos;, ip: &apos;10.125.75.160&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:37125}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: ee8992842f1d649efaafa11cc4c...}
-Session ID: ee8992842f1d649efaafa11cc4cd9460
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at page.BasePage.setText(BasePage.java:27)
-	at page.LoginPage.inputEmail(LoginPage.java:25)
-	at test.LoginTestDocker.invalidPassword(LoginTestDocker.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 25 stack frames</div>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">test.LoginTestDocker:validLogin</h2>
-<div>
-<h3 style='text-align: center;'></h3><br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-</body></html>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead></table>
+</body>
+</html>
