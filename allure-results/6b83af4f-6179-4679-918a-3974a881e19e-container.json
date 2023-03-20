@@ -1,0 +1,1 @@
+{"uuid":"6b83af4f-6179-4679-918a-3974a881e19e","name":"test.BaseAPITest.login","children":["d2f37924-b878-42f0-a43a-a7cf6992f061"],"description":"","befores":[{"name":"login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1679285294921,"stop":1679285300247}],"afters":[],"start":1679285294921,"stop":1679285300247}
