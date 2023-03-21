@@ -5,19 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ce8720-fb06-4b9a-95ab-de990a93afd9" name="Changes" comment="nine push">
-      <change afterPath="$PROJECT_DIR$/allure-results/06591ab3-abca-4fea-9e16-f779a2643d05-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/550cdcdc-e050-4d87-b175-aeecf5e7d63f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6663436d-099e-4511-b848-8a407dc222c3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8694a674-8365-4025-987b-8c586bbd982c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8b866f7a-ac90-4467-9129-1e82822fc74f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a1527b11-e160-4a1a-aa5b-7f4bd0b38c41-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/aea573e1-037f-47de-8e91-b223a0b62c1d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b0de131d-bc06-4220-b258-8291820321eb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bb7b2927-76d2-4f2d-9c34-1d848d40987f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bd341c0d-0ee4-4e9e-8824-25ac3331e6bf-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c069e622-c822-4017-9ea7-126fb9ee68d6-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c2e38572-a205-4988-9ad3-2d56c5d77034-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d117eeb2-2c5d-4ce5-bcbb-2b08147fe774-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -273,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679388712142</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="nine push">
+      <created>1679388819896</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679388819896</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
