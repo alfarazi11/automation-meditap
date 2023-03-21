@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/jenkins_slave/workspace/Selenium-Docker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jenkins_slave/workspace/Selenium-Docker@2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/jenkins_slave/workspace/SeleniumDockerFreestyle" vcs="Git" />
   </component>
 </project>
