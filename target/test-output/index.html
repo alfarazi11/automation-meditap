@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-search_module" class="navigator-link">
-              <span class="suite-name border-passed">search-module</span>
+              <span class="suite-name border-failed">search-module</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,46 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">3 methods, 3 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-search_module" class="hide-methods passed suite-search_module"> (hide)</a> <!-- hide-methods passed suite-search_module -->
-                      <a href="#" panel-name="suite-search_module" class="show-methods passed suite-search_module"> (show)</a> <!-- show-methods passed suite-search_module -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-search_module" class="hide-methods failed suite-search_module"> (hide)</a> <!-- hide-methods failed suite-search_module -->
+                      <a href="#" panel-name="suite-search_module" class="show-methods failed suite-search_module"> (show)</a> <!-- show-methods failed suite-search_module -->
                     </span>
-                    <div class="method-list-content passed suite-search_module">
+                    <div class="method-list-content failed suite-search_module">
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-search_module" title="test.LoginTestDocker" class="method navigator-link" hash-for-method="invalidEmail">invalidEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-search_module" title="test.LoginTestDocker" class="method navigator-link" hash-for-method="invalidEmail">invalidEmail</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-search_module" title="test.LoginTestDocker" class="method navigator-link" hash-for-method="invalidPassword">invalidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-search_module" title="test.LoginTestDocker" class="method navigator-link" hash-for-method="invalidPassword">invalidPassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-search_module" title="test.LoginTestDocker" class="method navigator-link" hash-for-method="validLogin">validLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-search_module" title="test.LoginTestDocker" class="method navigator-link" hash-for-method="validLogin">validLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-search_module -->
+                    </div> <!-- method-list-content failed suite-search_module -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -142,9 +127,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-search_module" class="panel search_module">
-          <div class="suite-search_module-class-passed">
+          <div class="suite-search_module-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">test.LoginTestDocker</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -153,13 +138,24 @@
                   <a name="invalidEmail">
                   </a> <!-- invalidEmail -->
                   <span class="method-name">invalidEmail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidEmail">
-                  </a> <!-- invalidEmail -->
-                  <span class="method-name">invalidEmail</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0-beta-3&apos;, revision: &apos;5d108f9a67&apos;
+System info: host: &apos;DESKTOP-NVQOVER&apos;, ip: &apos;10.125.75.160&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at page.BasePage.setText(BasePage.java:27)
+	at page.LoginPage.inputEmail(LoginPage.java:25)
+	at test.LoginTestDocker.invalidEmail(LoginTestDocker.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -167,13 +163,24 @@
                   <a name="invalidPassword">
                   </a> <!-- invalidPassword -->
                   <span class="method-name">invalidPassword</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidPassword">
-                  </a> <!-- invalidPassword -->
-                  <span class="method-name">invalidPassword</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0-beta-3&apos;, revision: &apos;5d108f9a67&apos;
+System info: host: &apos;DESKTOP-NVQOVER&apos;, ip: &apos;10.125.75.160&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at page.BasePage.setText(BasePage.java:27)
+	at page.LoginPage.inputEmail(LoginPage.java:25)
+	at test.LoginTestDocker.invalidPassword(LoginTestDocker.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -181,17 +188,28 @@
                   <a name="validLogin">
                   </a> <!-- validLogin -->
                   <span class="method-name">validLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validLogin">
-                  </a> <!-- validLogin -->
-                  <span class="method-name">validLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0-beta-3&apos;, revision: &apos;5d108f9a67&apos;
+System info: host: &apos;DESKTOP-NVQOVER&apos;, ip: &apos;10.125.75.160&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at page.BasePage.setText(BasePage.java:27)
+	at page.LoginPage.inputEmail(LoginPage.java:25)
+	at test.LoginTestDocker.validLogin(LoginTestDocker.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-search_module-class-passed -->
+          </div> <!-- suite-search_module-class-failed -->
         </div> <!-- panel search_module -->
         <div panel-name="test-xml-search_module" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -252,36 +270,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'invalidEmail')
+data.setCell(0, 1, 'validLogin')
 data.setCell(0, 2, 'test.LoginTestDocker')
-data.setCell(0, 3, 1640);
+data.setCell(0, 3, 60396);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'invalidEmail')
 data.setCell(1, 2, 'test.LoginTestDocker')
-data.setCell(1, 3, 1438);
+data.setCell(1, 3, 60234);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'invalidPassword')
 data.setCell(2, 2, 'test.LoginTestDocker')
-data.setCell(2, 3, 725);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validLogin')
-data.setCell(3, 2, 'test.LoginTestDocker')
-data.setCell(3, 3, 681);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'invalidPassword')
-data.setCell(4, 2, 'test.LoginTestDocker')
-data.setCell(4, 3, 674);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validLogin')
-data.setCell(5, 2, 'test.LoginTestDocker')
-data.setCell(5, 3, 621);
+data.setCell(2, 3, 60150);
 window.suiteTableData['search_module']= { tableData: data, tableDiv: 'times-div-search_module'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-search_module">
               </div> <!-- times-div-search_module -->
             </div> <!-- times-div -->
@@ -309,44 +315,56 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">test.LoginTestDocker</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setupDriver(org.testng.TestRunner@3224a577)</span>
+                <span class="method-name">setupDriver(org.testng.TestRunner@4e928fbf)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
-                <span class="method-name">setupDriver(org.testng.TestRunner@2e32ccc5)</span>
+                <span class="method-name">setupDriver(org.testng.TestRunner@352ff4da)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">invalidEmail</span>
-                <span class="method-start">7123 ms</span>
+                <span class="method-start">138182 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">invalidEmail</span>
-                <span class="method-start">8817 ms</span>
+                <span class="method-start">138182 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">invalidPassword</span>
-                <span class="method-start">8868 ms</span>
+                <span class="method-start">198565 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invalidPassword</span>
+                <span class="method-start">198565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">validLogin</span>
-                <span class="method-start">9597 ms</span>
+                <span class="method-start">258726 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">invalidPassword</span>
-                <span class="method-start">10259 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validLogin</span>
+                <span class="method-start">258748 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">10281 ms</span>
+                <span class="method-start">318969 ms</span>
               </div> <!-- configuration-test after -->
-              <div class="test-method">
-                <span class="method-name">validLogin</span>
-                <span class="method-start">10936 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">11559 ms</span>
+                <span class="method-start">319127 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -4,50 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ce8720-fb06-4b9a-95ab-de990a93afd9" name="Changes" comment="seven push">
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1754889d-4b07-4d75-b3fa-659766650618-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/19d00bce-408b-4bb2-a52f-7b44a319e647-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3409dd47-33e9-4332-a8f6-2a9c87976dc3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/35028ecb-19f9-482f-a1fc-032052e07853-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/42f1897c-e62f-4856-8fea-da98612d89d3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/85e1af14-7634-44ff-9cb9-d073e6955470-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8f413f38-68ab-4ad2-907b-9c98261db7fb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/9f50ef25-6081-4c2a-89cd-02478a8c3111-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b9bbabb3-a855-42f9-a452-7d04412447a8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c07014cd-5aa3-408b-8bf2-27cdf02634f3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/d0436f53-8b18-4dd7-b25b-6df8f40d8a0c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/selenium-docker-tests.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/selenium-docker-tests.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/selenium-docker.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/selenium-docker.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/junitreports/TEST-test.LoginTestDocker.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/Api-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/Login.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Api-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-output/testng.css" beforeDir="false" />
+    <list default="true" id="87ce8720-fb06-4b9a-95ab-de990a93afd9" name="Changes" comment="eight push">
+      <change afterPath="$PROJECT_DIR$/allure-results/0d6a699b-2480-451d-a964-884399b41a75-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/69327fa8-597c-4973-b679-8c3891eb71a1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/865e423e-e65f-4eaa-b869-d88224d03d54-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9a2fc077-43a1-4ff2-aa07-b2f3d49be0f4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9b56acc3-b9f7-4219-b481-0a927d377260-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ba0876e4-7607-47f0-a9ab-b9a7838e1486-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/badcafbf-2ef4-4281-8c80-bd8e19f76318-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c6d2efe8-9508-4618-83cb-3c7eb8e949eb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cf2ad600-5312-4182-ac1b-a1f8a72a59c9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d1a99b33-e9b6-4b89-8e5b-3adbc385d2cd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d1bfc2f3-1009-4734-8fe8-8efbf2d84937-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e620745b-86b9-4c6f-8800-9cad855b654a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f90eef64-4bba-41d9-bb53-37d53810feb8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/03/E3B418DE52CE1D126971EC175B672C.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/0F/3B4B41FA3E95DE9A5D0B01F64C9835.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/38/D1051BC0DFD6E16F8897B9D5267520.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/52/0A72C518A90310D212D3EFACFEDA8D.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/55/D0ACB6D7325543226765B04268EEE0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/7F/C123BB910685F3DE4B0AD037245C21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/B2/674E7818836879CAD5D217139F4228.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/C2/6DEE0DB71344F5159FEBFCD6E52613.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/CE/0E24DB1122F70D676D89715500BD45.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/DD/CA0DD5CB00EB03D2A10BDCB467FE34.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/ED/C1051A64B2079C328949908A39DACC.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/ED/sendctrlc.x64.B37C5E935F3DA60B2940592241F826DA.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/ED/winp.x64.BFFE30B3B50581290B1866EF8D48C609.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.0.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumdocker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumdocker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfacecollection/IDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interfacecollection/IDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/ScreenshotListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/ScreenshotListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restassured/apis/APIEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/apis/APIEndpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restassured/apis/JsonPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/apis/JsonPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/APITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/BaseAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/BaseAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/BaseWebTestDocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/BaseWebTestDocker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/LoginTestDocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LoginTestDocker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/APIUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/APIUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DataUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DataUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/seleniumdocker/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seleniumdocker/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/junitreports/TEST-test.LoginTestDocker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/junitreports/TEST-test.LoginTestDocker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/Api-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/Api-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/Login.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/Login.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/old/search-module/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/old/search-module/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Api-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/search-module/Api-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/search-module/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/search-module/Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/search-module/Login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,23 +111,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Alfarazi/Automation/Selenium/SeleniumFramework",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.43908045",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Alfarazi/Automation/Selenium/SeleniumFramework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.43908045&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
@@ -288,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679306118106</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="eight push">
+      <created>1679306634808</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679306634808</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,7 +336,8 @@
     <MESSAGE value="five push" />
     <MESSAGE value="six push" />
     <MESSAGE value="seven push" />
-    <option name="LAST_COMMIT_MESSAGE" value="seven push" />
+    <MESSAGE value="eight push" />
+    <option name="LAST_COMMIT_MESSAGE" value="eight push" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/seleniumdocker$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1679285277702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

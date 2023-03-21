@@ -1,71 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-20T17:01:39 ICT" name="search-module" finished-at="2023-03-20T17:01:51 ICT" duration-ms="11699">
+  <suite started-at="2023-03-21T15:08:34 ICT" name="search-module" finished-at="2023-03-21T15:13:53 ICT" duration-ms="319292">
     <groups>
     </groups>
-    <test started-at="2023-03-20T17:01:39 ICT" name="Login" finished-at="2023-03-20T17:01:49 ICT" duration-ms="10423">
+    <test started-at="2023-03-21T15:08:34 ICT" name="Login" finished-at="2023-03-21T15:13:53 ICT" duration-ms="319292">
       <class name="test.LoginTestDocker">
-        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T17:01:39 ICT" name="setupDriver" finished-at="2023-03-20T17:01:46 ICT" duration-ms="7077" status="PASS">
+        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-21T15:08:34 ICT" name="setupDriver" finished-at="2023-03-21T15:10:52 ICT" duration-ms="138141" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3224a577]]>
+                <![CDATA[org.testng.TestRunner@352ff4da]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="invalidEmail()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T17:01:46 ICT" name="invalidEmail" finished-at="2023-03-20T17:01:48 ICT" duration-ms="1640" status="PASS">
+        <test-method signature="invalidEmail()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-21T15:10:52 ICT" name="invalidEmail" finished-at="2023-03-21T15:11:52 ICT" duration-ms="60234" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'DESKTOP-NVQOVER', ip: '10.125.75.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'DESKTOP-NVQOVER', ip: '10.125.75.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at page.BasePage.setText(BasePage.java:27)
+at page.LoginPage.inputEmail(LoginPage.java:25)
+at test.LoginTestDocker.invalidEmail(LoginTestDocker.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidEmail -->
-        <test-method signature="invalidPassword()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T17:01:48 ICT" name="invalidPassword" finished-at="2023-03-20T17:01:48 ICT" duration-ms="725" status="PASS">
+        <test-method signature="invalidPassword()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-21T15:11:52 ICT" name="invalidPassword" finished-at="2023-03-21T15:12:53 ICT" duration-ms="60150" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'DESKTOP-NVQOVER', ip: '10.125.75.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'DESKTOP-NVQOVER', ip: '10.125.75.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at page.BasePage.setText(BasePage.java:27)
+at page.LoginPage.inputEmail(LoginPage.java:25)
+at test.LoginTestDocker.invalidPassword(LoginTestDocker.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPassword -->
-        <test-method signature="validLogin()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T17:01:48 ICT" name="validLogin" finished-at="2023-03-20T17:01:49 ICT" duration-ms="681" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-21T15:12:53 ICT" name="validLogin" finished-at="2023-03-21T15:13:53 ICT" duration-ms="60396" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'DESKTOP-NVQOVER', ip: '10.125.75.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'DESKTOP-NVQOVER', ip: '10.125.75.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at page.BasePage.setText(BasePage.java:27)
+at page.LoginPage.inputEmail(LoginPage.java:25)
+at test.LoginTestDocker.validLogin(LoginTestDocker.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-20T17:01:49 ICT" name="quitDriver" finished-at="2023-03-20T17:01:49 ICT" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:test.LoginTestDocker@4b8729ff]" started-at="2023-03-21T15:13:53 ICT" name="quitDriver" finished-at="2023-03-21T15:13:53 ICT" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- test.LoginTestDocker -->
     </test> <!-- Login -->
-    <test started-at="2023-03-20T17:01:39 ICT" name="Api-test" finished-at="2023-03-20T17:01:51 ICT" duration-ms="11699">
-      <class name="test.LoginTestDocker">
-        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T17:01:39 ICT" name="setupDriver" finished-at="2023-03-20T17:01:48 ICT" duration-ms="8815" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2e32ccc5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method signature="invalidEmail()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T17:01:48 ICT" name="invalidEmail" finished-at="2023-03-20T17:01:49 ICT" duration-ms="1438" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidEmail -->
-        <test-method signature="invalidPassword()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T17:01:49 ICT" name="invalidPassword" finished-at="2023-03-20T17:01:50 ICT" duration-ms="674" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidPassword -->
-        <test-method signature="validLogin()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T17:01:50 ICT" name="validLogin" finished-at="2023-03-20T17:01:50 ICT" duration-ms="621" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:test.LoginTestDocker@7283d3eb]" started-at="2023-03-20T17:01:50 ICT" name="quitDriver" finished-at="2023-03-20T17:01:51 ICT" duration-ms="117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- test.LoginTestDocker -->
-    </test> <!-- Api-test -->
   </suite> <!-- search-module -->
 </testng-results>

@@ -9,18 +9,60 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">search-module</th></tr>
-<tr><td><a href="#t0">Login</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,423</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Api-test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,699</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">22,122</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Login</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">319,292</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">search-module</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">test.LoginTestDocker</td><td><a href="#m0">invalidEmail</a></td><td rowspan="1">1679306506469</td><td rowspan="1">1640</td></tr><tr class="passedeven"><td><a href="#m1">invalidPassword</a></td><td rowspan="1">1679306508214</td><td rowspan="1">725</td></tr><tr class="passedeven"><td><a href="#m2">validLogin</a></td><td rowspan="1">1679306508943</td><td rowspan="1">681</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Api-test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">test.LoginTestDocker</td><td><a href="#m3">invalidEmail</a></td><td rowspan="1">1679306508163</td><td rowspan="1">1438</td></tr><tr class="passedeven"><td><a href="#m4">invalidPassword</a></td><td rowspan="1">1679306509605</td><td rowspan="1">674</td></tr><tr class="passedeven"><td><a href="#m5">validLogin</a></td><td rowspan="1">1679306510282</td><td rowspan="1">621</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">search-module</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">test.LoginTestDocker</td><td><a href="#m0">invalidEmail</a></td><td rowspan="1">1679386252585</td><td rowspan="1">60234</td></tr><tr class="failedeven"><td><a href="#m1">invalidPassword</a></td><td rowspan="1">1679386312968</td><td rowspan="1">60150</td></tr><tr class="failedeven"><td><a href="#m2">validLogin</a></td><td rowspan="1">1679386373129</td><td rowspan="1">60396</td></tr></tbody>
 </table>
-<h2>Login</h2><h3 id="m0">test.LoginTestDocker#invalidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">test.LoginTestDocker#invalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">test.LoginTestDocker#validLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Api-test</h2><h3 id="m3">test.LoginTestDocker#invalidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">test.LoginTestDocker#invalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">test.LoginTestDocker#validLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login</h2><h3 id="m0">test.LoginTestDocker#invalidEmail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0-beta-3&apos;, revision: &apos;5d108f9a67&apos;
+System info: host: &apos;DESKTOP-NVQOVER&apos;, ip: &apos;10.125.75.160&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at page.BasePage.setText(BasePage.java:27)
+	at page.LoginPage.inputEmail(LoginPage.java:25)
+	at test.LoginTestDocker.invalidEmail(LoginTestDocker.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.LoginTestDocker#invalidPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0-beta-3&apos;, revision: &apos;5d108f9a67&apos;
+System info: host: &apos;DESKTOP-NVQOVER&apos;, ip: &apos;10.125.75.160&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at page.BasePage.setText(BasePage.java:27)
+	at page.LoginPage.inputEmail(LoginPage.java:25)
+	at test.LoginTestDocker.invalidPassword(LoginTestDocker.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.LoginTestDocker#validLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: userEmail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0-beta-3&apos;, revision: &apos;5d108f9a67&apos;
+System info: host: &apos;DESKTOP-NVQOVER&apos;, ip: &apos;10.125.75.160&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600233 (523efee95e3d68..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true, webdriver.remote.sessionid: 68c84617dd6ed50de78d824fc40...}
+Session ID: 68c84617dd6ed50de78d824fc40b5f20
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at page.BasePage.setText(BasePage.java:27)
+	at page.LoginPage.inputEmail(LoginPage.java:25)
+	at test.LoginTestDocker.validLogin(LoginTestDocker.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
