@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ce8720-fb06-4b9a-95ab-de990a93afd9" name="Changes" comment="nine push">
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/0C/A2C2306EABFDFE27931EEE0E8B3D58.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/0D/BB92BE248909DAAAD1F8D6D7310463.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/18/8C5520220EC851525290B4DE09B8DF.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/3E/7A9974E97D5BB7895EA296F32CC1D8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/42/09A86CA46F3D59AA780925B40210D8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/49/3BA364D1F3D9B7E3521E248FB6A6FE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/49/EA731D689D7CFDBAF1F1790FB2BEDB.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/57/C1341BD103171B462C782A4935813D.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/58/64AAC6BA97DC8EC01EDAC52996B54A.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/60/0DAF5FB641B871BCE3E626C133F0F8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/61/93612DC269DD8F8FC8BF845DE905F2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/65/349E2DBF59F9330A6063D5EDCB6D5A.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/66/4BB6C46DE5F4FBDD08A76C2F2DAA3B.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/76/6B1544A267DC9EA57735D913F3B493.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/B6/766C951073F3E1A80AAC6C96D525FB.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/B9/8014AC6522F69C5E171C4F4942D210.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/E2/C80DD7C22AC1D1F8AEDF1483998D8A.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/F1/99C1C1A23D34B52D90533017F1CBAB.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/F8/33C1560729403AFCAEFDB11CB46C9A.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679388939971</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="nine push">
+      <created>1679389091107</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679389091107</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

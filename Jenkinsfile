@@ -15,9 +15,9 @@ pipeline {
         }
         stage('Build Image') {
             steps {
-                bat "docker build -t='alfarazi/selenium-docker'"
-//                 script {
-//                 	app = docker.build("alfarazi/selenium-docker")
+//                 bat "docker build -t='alfarazi/selenium-docker'"
+                script {
+                	app = docker.build("alfarazi/selenium-docker")
 //                 }
             }
         }
