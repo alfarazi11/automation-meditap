@@ -25,3 +25,180 @@ Mar 21, 2023 4:04:35 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Remote identity confirmed: b8:47:d3:d0:cc:c2:2a:4b:68:d4:d3:a9:2f:b9:d6:7e
 Mar 21, 2023 4:04:35 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connected
+Mar 21, 2023 5:14:52 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Mar 21, 2023 5:15:07 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the controller. Will try again: java.net.SocketTimeoutException Read timed out
+Mar 21, 2023 5:15:22 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the controller. Will try again: java.net.SocketTimeoutException Read timed out
+Mar 21, 2023 5:15:37 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the controller. Will try again: java.net.SocketTimeoutException Read timed out
+Mar 21, 2023 5:15:52 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the controller. Will try again: java.net.SocketTimeoutException Read timed out
+Mar 21, 2023 5:16:02 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:16:12 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:16:22 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:16:32 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:16:42 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:16:52 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:17:02 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:17:12 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:17:22 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:17:32 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:17:42 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:17:52 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:18:02 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:18:12 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:18:22 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 5:18:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Mar 21, 2023 5:18:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Mar 21, 2023 5:18:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://localhost:8080/]
+Mar 21, 2023 5:18:33 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Mar 21, 2023 5:18:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    50000
+  Identity:      b8:47:d3:d0:cc:c2:2a:4b:68:d4:d3:a9:2f:b9:d6:7e
+Mar 21, 2023 5:18:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+Mar 21, 2023 5:18:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to localhost:50000
+Mar 21, 2023 5:18:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Mar 21, 2023 5:18:33 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Mar 21, 2023 5:18:34 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: b8:47:d3:d0:cc:c2:2a:4b:68:d4:d3:a9:2f:b9:d6:7e
+Mar 21, 2023 5:18:34 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Mar 21, 2023 5:24:30 PM org.jvnet.winp.Native loadByUrl
+WARNING: Failed to load DLL from static location
+java.lang.UnsatisfiedLinkError: Native Library C:\Alfarazi\Automation\Selenium\AutomationDocker\seleniumdocker\jenkins_slave\remoting\jarCache\ED\winp.x64.BFFE30B3B50581290B1866EF8D48C609.dll already loaded in another classloader
+	at java.base/java.lang.ClassLoader$NativeLibrary.loadLibrary(ClassLoader.java:2458)
+	at java.base/java.lang.ClassLoader.loadLibrary0(ClassLoader.java:2689)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2619)
+	at java.base/java.lang.Runtime.load0(Runtime.java:765)
+	at java.base/java.lang.System.load(System.java:1835)
+	at org.jvnet.winp.Native.loadDll(Native.java:253)
+	at org.jvnet.winp.Native.loadByUrl(Native.java:173)
+	at org.jvnet.winp.Native.load(Native.java:135)
+	at org.jvnet.winp.Native.<clinit>(Native.java:102)
+	at org.jvnet.winp.WinProcess.enableDebugPrivilege(WinProcess.java:230)
+	at hudson.util.ProcessTree$Windows.<clinit>(ProcessTree.java:728)
+	at hudson.util.ProcessTree.get(ProcessTree.java:465)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1168)
+	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1158)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:377)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:125)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Mar 21, 2023 11:53:36 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Mar 21, 2023 11:53:51 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the controller. Will try again: java.net.SocketTimeoutException Read timed out
+Mar 21, 2023 11:54:06 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the controller. Will try again: java.net.SocketTimeoutException Read timed out
+Mar 21, 2023 11:54:21 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the controller. Will try again: java.net.SocketTimeoutException Read timed out
+Mar 21, 2023 11:54:36 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the controller. Will try again: java.net.SocketTimeoutException Read timed out
+Mar 21, 2023 11:54:51 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the controller. Will try again: java.net.SocketTimeoutException Read timed out
+Mar 21, 2023 11:55:01 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:55:11 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:55:21 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:55:31 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:55:41 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:55:51 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:56:01 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:56:11 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:56:21 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:56:31 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:56:41 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:56:51 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:57:01 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:57:11 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:57:21 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:57:31 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:57:41 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:57:51 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:58:01 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:58:11 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:58:21 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:58:31 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:58:41 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:58:51 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Mar 21, 2023 11:59:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Performing onReconnect operation.
+Mar 21, 2023 11:59:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: onReconnect operation completed.
+Mar 21, 2023 11:59:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://localhost:8080/]
+Mar 21, 2023 11:59:02 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Mar 21, 2023 11:59:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    50000
+  Identity:      b8:47:d3:d0:cc:c2:2a:4b:68:d4:d3:a9:2f:b9:d6:7e
+Mar 21, 2023 11:59:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+Mar 21, 2023 11:59:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to localhost:50000
+Mar 21, 2023 11:59:02 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Mar 21, 2023 11:59:02 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Mar 21, 2023 11:59:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: b8:47:d3:d0:cc:c2:2a:4b:68:d4:d3:a9:2f:b9:d6:7e
+Mar 21, 2023 11:59:03 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
