@@ -3,7 +3,7 @@ FROM openjdk:8u191-jre-alpine3.8
 RUN apk add curl jq
 
 # Workspace
-WORKDIR /usr/share/udemy
+WORKDIR /usr/share/alfarazi
 
 # ADD .jar under target from host
 # into this image
@@ -18,7 +18,8 @@ ADD target/libs libs
 ADD seleniumSuite.xml seleniumSuite.xml
 
 # ADD health check script
-RUN healthcheck.sh healthcheck.sh
+# ADD healthcheck.sh healthcheck.sh
+RUN wget https://s3.amazonaws.com/selenium-docker/healthcheck/healthcheck.sh
 
 # BROWSER
 # HUB_HOST
