@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ce8720-fb06-4b9a-95ab-de990a93afd9" name="Changes" comment="nine push">
-      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/49/735F8A44359AA3E1690B7B436ABB5B.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/BF/13DEF758459566E91115E66C79D1D5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jenkins_slave/remoting/jarCache/DE/33BACC07904E1392600069F0A95B78.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -361,7 +358,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679415031200</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="nine push">
+      <created>1679415548535</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679415548535</updated>
+    </task>
+    <task id="LOCAL-00028" summary="nine push">
+      <created>1679415664020</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679415664020</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
