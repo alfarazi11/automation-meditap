@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.0" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_slave/remoting/logs/remoting.log.2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679417481578</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="nine push">
+      <created>1679419285281</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1679419285285</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

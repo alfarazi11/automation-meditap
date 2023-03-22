@@ -1,5 +1,4 @@
 pipeline {
-    // master executor should be set to 0
     agent any
         stages {
              stage('Build Jar') {
@@ -25,7 +24,7 @@ pipeline {
             steps {
                     withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'Nerazuri11', usernameVariable: 'alfarazi')]) {
                     bat "docker login --username=${user} --password=${pass}"
-                    bat "docker push alfarazi/selenium-docker:latest"
+                    bat "docker push alfarazi/selenium-docker"
 
 //                     withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'Nerazuri11', usernameVariable: 'alfarazi')]) {
 //                     bat "docker login -u ${env.user'} -p ${env.pass}"
