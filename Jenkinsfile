@@ -17,8 +17,8 @@ pipeline {
 //                         bat "docker build -t alfarazi/selenium-docker -f Dockerfile ."
                         script {
                         	app = docker.build("alfarazi/selenium-docker")
-                        	docker logout
                         }
+                        docker logout
                     }
                 }
         stage('Push Image') {
