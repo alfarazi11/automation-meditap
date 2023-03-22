@@ -31,8 +31,7 @@ pipeline {
 //                     bat "docker push alfarazi/selenium-docker:latest"
                    // assumes Jib is configured to use the environment variables
                 script {
-// 			        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-                    docker.withRegistry('https://registry.docker.io', 'dockerhub') {
+			        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
 			        app.push("${BUILD_NUMBER}")
 			        app.push("latest")
 			        }
