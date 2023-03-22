@@ -33,6 +33,8 @@ pipeline {
                 script {
 			        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
 // 			        app.push("${env.BUILD_NUMBER}")
+                    docker logout
+                    docker login
 			        app.push("latest")
 			        }
                 }
