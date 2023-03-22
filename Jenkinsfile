@@ -17,6 +17,7 @@ pipeline {
 //                         bat "docker build -t alfarazi/selenium-docker -f Dockerfile ."
                         script {
                         	app = docker.build("alfarazi/selenium-docker")
+                        	docker logout
                         }
                     }
                 }
@@ -33,8 +34,7 @@ pipeline {
                 script {
 			        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
 // 			        app.push("${env.BUILD_NUMBER}")
-                    docker logout
-                    docker login
+//                     docker login
 			        app.push("latest")
 			        }
                 }
