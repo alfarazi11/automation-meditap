@@ -22,9 +22,9 @@ pipeline {
                 }
         stage('Push Image') {
             steps {
-                    withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'Nerazuri11', usernameVariable: 'alfarazi')]) {
-                    bat "docker login --username=${user} --password=${pass}"
-                    bat "docker push alfarazi/selenium-docker"
+//                     withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'Nerazuri11', usernameVariable: 'alfarazi')]) {
+//                     bat "docker login --username=${user} --password=${pass}"
+//                     bat "docker push alfarazi/selenium-docker"
 
 //                     withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'Nerazuri11', usernameVariable: 'alfarazi')]) {
 //                     bat "docker login -u ${env.user'} -p ${env.pass}"
