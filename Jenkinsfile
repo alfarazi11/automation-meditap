@@ -32,9 +32,9 @@ pipeline {
                    // assumes Jib is configured to use the environment variables
                 script {
 			        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-			        String a = load('a.groovy')
+// 			        String a = load('a.groovy')
 			        app.push("${env.BUILD_NUMBER}")
-			        app.push("${a.LOADED_BUILD_NUMBER}")
+// 			        app.push("${a.LOADED_BUILD_NUMBER}")
 			        app.push("latest")
 			        }
                 }
