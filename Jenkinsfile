@@ -18,7 +18,6 @@ pipeline {
                         script {
                         	app = docker.build("alfarazi/selenium-docker")
                         }
-                        docker logout
                     }
                 }
         stage('Push Image') {
