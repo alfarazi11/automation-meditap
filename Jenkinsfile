@@ -14,11 +14,10 @@ pipeline {
                     }
         stage('Build Image') {
                     steps {
-//                         bat "docker build -t='alfarazi/selenium-docker' ."
-                        bat "docker build -t alfarazi/selenium-docker -f Dockerfile ."
-//                         script {
-//                         	app = docker.build("alfarazi/selenium-docker")
-//                         }
+//                         bat "docker build -t alfarazi/selenium-docker -f Dockerfile ."
+                        script {
+                        	app = docker.build("alfarazi/selenium-docker")
+                        }
                     }
                 }
         stage('Push Image') {
@@ -31,11 +30,13 @@ pipeline {
 //                     bat "docker login -u ${env.user'} -p ${env.pass}"
 //                     bat "docker push alfarazi/selenium-docker:latest"
                    // assumes Jib is configured to use the environment variables
-//                 script {
-// 			        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-// 			        app.push("${env.BUILD_NUMBER}")
-// 			        app.push("latest")
-// 			        }
+                script {
+			        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
+			        String a = load('a.groovy')
+			        app.push("${env.BUILD_NUMBER}")
+			        app.push("${a.LOADED_BUILD_NUMBER}")
+			        app.push("latest")
+			        }
                 }
             }
         }
