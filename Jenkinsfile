@@ -18,7 +18,6 @@ pipeline {
                         script {
 //                         	app = docker.build("alfarazi/selenium-docker")
                             app = docker.build("selenium-docker")
-                        	app = docker.tag("selenium-docker alfarazi11/meditapautomation:selenium-docker")
                         }
                     }
                 }
@@ -35,6 +34,7 @@ pipeline {
                    // assumes Jib is configured to use the environment variables
                 script {
 			        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
+			        docker.tag("selenium-docker alfarazi11/meditapautomation:selenium-docker")
 			        app.push("${env.BUILD_NUMBER}")
 			        app.push("latest")
 			        }
