@@ -24,7 +24,8 @@ pipeline {
             steps {
                     withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'Nerazuri11', usernameVariable: 'alfarazi')]) {
                     bat "docker login --username=${user} --password=${pass}"
-                    bat "docker push alfarazi/selenium-docker"
+                    bat "docker tag selenium-docker alfarazi11/meditapautomation:selenium-docker"
+                    bat "docker push alfarazi11/meditapautomation:selenium-docker"
 
 //                     withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'Nerazuri11', usernameVariable: 'alfarazi')]) {
 //                     bat "docker login -u ${env.user'} -p ${env.pass}"
