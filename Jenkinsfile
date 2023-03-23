@@ -16,7 +16,9 @@ pipeline {
                     steps {
 //                         bat "docker build -t alfarazi/selenium-docker -f Dockerfile ."
                         script {
-                        	app = docker.build("alfarazi/selenium-docker")
+//                         	app = docker.build("alfarazi/selenium-docker")
+                            app = docker.build("selenium-docker")
+                        	app = docker.tag("selenium-docker alfarazi11/meditapautomation:selenium-docker")
                         }
                     }
                 }
