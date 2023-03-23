@@ -31,11 +31,11 @@ pipeline {
 //                     bat "docker login -u ${env.user'} -p ${env.pass}"
 //                     bat "docker push alfarazi/selenium-docker:latest"
                    // assumes Jib is configured to use the environment variables
-//                 script {
+                script {
 			        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
 			        app.push("${env.BUILD_NUMBER}")
 			        app.push("latest")
-// 			        }
+			        }
                 }
             }
         }
